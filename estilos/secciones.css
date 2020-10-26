@@ -1,0 +1,243 @@
+html {
+
+}
+
+h1{
+font-family: 'Kufam', cursive;
+color: #E50A33;
+}
+h1.productos{
+	width: 100vh;
+	position: relative;
+	right: auto;
+}
+.listado ul li { color: red; width: 350px;height: 35px;}
+.listado li { color: yellow;width: 350px; height: 35px;}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contenedorimg{
+	width: 20%;
+	height:auto;
+	margin: 5px;
+	border:2px solid black;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50)
+	}
+	.contenedor1{
+		width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  space-around;
+	}
+.contenedorimagen{
+	width: 20%;
+	height:auto;
+	margin: 5px;
+	border:2px solid black;
+}
+h2.lol2{
+	font-family: 'Kufam', cursive;
+color: black;
+position: relative;
+left: 100vh;
+border: black solid 2px;
+background-color: white;
+width: 150px;
+text-align: center;
+}
+ hr{
+color: black
+ } 
+p{
+	color: orange;
+}
+.grid{
+	display: grid;
+	grid-template-columns:33% 33% 33%;
+
+}
+ div.aboutus {
+	background-color: #CB4848;
+	padding:1vh;
+	text-align: center;
+	font-family: 'Kufam', cursive;
+	grid-column: 1vh;
+	justify-content:stretch;
+
+}
+h1.lol{
+font-family: 'Kufam', cursive;
+color: #E50A33;
+left: 750px;
+position: relative;
+border: 1px solid black;
+width: 570px;
+text-align: center;
+background-color: white;
+}
+body {
+		background-image: url(../imagenes/fondo.jpg);
+}
+
+label {
+	color: white;
+}
+body.gracias{
+	background-color: white;
+}
+.gradient{
+	background:linear-gradient(to top,#C5D91A,#080808);
+	height: 100vh;
+	width: 100px;
+}
+form{
+	border: 1px solid #C4DD1D;
+	width: 500px;
+	position: relative;
+	left: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+.boton{
+	background-color: green;
+	transition: width 2s;
+	height: auto;
+	width: 200px;
+}
+.boton:hover{
+	width: 250px;
+	background-color: blue;
+}
+h1.animado{
+	transform: skewY(5deg);
+	width: 250px;
+	height: auto;
+}
+.homeflex{
+	display: flex;
+	justify-content: center;
+}
+.homeflex .item{
+	font-family: 'Kufam', cursive;
+	background-color: white;
+	color: black;
+	width: 25vh;
+	text-align: center;
+}
+@media only screen and (max-width: 1720px) {
+.grid{
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+}
+.productos{
+ position: relative;
+ left: 1px;
+ width: 10px;
+ height: auto;
+ text-align: left;
+ font-size: 2vh;
+}
+h2.media{
+	position: relative;
+	left: 30vh;
+}
+	
+}
+/*----ACA empieza la parte de informacion (formas de pago,sucursales,etc)*/
+
+.body {
+background-image: url(../imagenes/ski.jpg)
+}
+.ul{
+list-style: square inside
+url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+}
+.estilo1{
+font-family: 'Open Sans', sans-serif;
+color: #D74B4B;
+background-color:white;
+border: 1px solid black;
+width: 250px;
+height: auto;
+}
+.estilo2{
+font-family: 'Open Sans', sans-serif;
+}
+.li {
+	color: #FFFFFF
+}
+.transicion{
+	transition: height 5s, width 1s;
+	width: 200px;
+	height: 100px;
+	cursor: pointer; 
+}
+.transicion:hover{
+	width: 200px;
+	height: 200px;
+	transform: skewX(5deg)
+	}
+.homeflex{
+	display: flex;
+	justify-content: center;
+}
+.homeflex .item{
+	font-family: 'Kufam', cursive;
+	background-color: white;
+	color: black;
+	width: 25vh;
+	text-align: center;
+}
+.btn{
+	color: black;
+}
+.btn_btn1{
+	text-transform: uppercase;
+	background-color: #D0ADAD;
+	width: 15vh;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+
+.btn_btn2{
+	text-transform: uppercase;
+	background-color: white;
+	width: 15vh;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+.btn_btn3{
+	text-transform: uppercase;
+	background-color: #757070;
+	width: 15vh;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+.btn_btn4{
+		text-transform: uppercase;
+	background-color: #EE9494;
+	width: 15vh;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+.estilo3{
+font-family: 'Open Sans', sans-serif;
+color: #D74B4B;
+background-color:white;
+border: 1px solid black;
+width: 650px;
+height: auto;
+}
+

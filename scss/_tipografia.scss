@@ -1,0 +1,26 @@
+ol {
+    li{
+    display: inline-block;
+    padding:5px;
+    color: white;
+    position:relative;
+    background-color: black;
+    width: 750px;
+    text-align:center;
+    left: 50vh;
+    opacity: 70%;
+
+        }
+}
+
+.comentario{
+	width:$ancho/2;
+	background-color:white;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.estado{
+	font-family: 'Kufam', cursive;
+	color: #736E6E;
+}

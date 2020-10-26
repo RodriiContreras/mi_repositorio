@@ -1,0 +1,134 @@
+html {
+
+}
+body {
+	background-image: url(../imagenes/fondo.jpg);
+    width: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.alineacion{ 
+text-align: left;
+margin: 15px;
+position: relative;
+left: 60vh;
+width: 35vh;
+ border: solid black 2px;
+ background-color: #FFFFFF;
+}
+
+.a {
+ color:black;
+ text-align: center;
+  }
+}
+.p{
+	font-family: 'Kufam', cursive; 
+	color: white;
+	width: 900px;
+}
+.gradient{
+	background:linear-gradient(to top,#0FCFB6,#000000);
+	height: auto;
+	width: 2700px;
+	}
+	.contenedorflex{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	.contenedorflex .item{
+background-color: #D82035;
+height: auto; 
+border: 1px solid black;	
+ width: 20vh;
+ color: black;
+ text-align: center;
+ position: relative;
+ left: 50vh;
+}
+
+
+.contenedorimagen{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 200vh;
+}
+.contenedorimagen .item2{
+	 border: 2px solid black;
+	 height: 350px;
+	 margin: 15px;
+	 box-shadow: 0px 15px 25px rgba(0,0,0,0.50)
+
+}
+p.numero{
+	color: white;
+	width: 50vh;
+}
+.gainz{
+display: flex;
+flex-wrap: row;
+justify-content: center;
+}
+.hijoh1{
+	color: #FA0909;
+	background-color: white;
+	border: 2px solid black;
+	position: relative;
+	left: 48vh;
+	width: 95vh;
+	}
+	.imagheader{
+		position: relative;
+		left: 50vh;
+	}
+
+.botones{
+	padding: 1vh;
+	margin:1vh;
+	position: relative;
+	left: 45vh;
+
+}
+.tamaño{
+	width:21vh;
+	height:auto;
+	border: 1px solid black;
+	position: relative;
+	left: 92vh;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+@media only screen and (max-width: 1720px) {
+	.imagheader{
+		position: relative;
+		left: 35vh;
+	}
+.hijoh1{
+	position: relative;
+	left: 30vh;
+}
+
+.contenedorimagen .item2{
+	position: relative;
+	left: 25vh;
+}
+.tamaño{
+	position: relative;
+	left: 55vh;
+}
+.inf{
+	font-size: 2vh;
+	position: relative;
+	left: 50vh;
+}
+.alineacion{
+	position: relative;
+	left: 45vh;
+}
+
+	}
