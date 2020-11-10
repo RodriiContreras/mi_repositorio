@@ -1,0 +1,153 @@
+.forma {
+  color: black;
+  width: 20vh;
+  background-color: white;
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid black; }
+
+ol li {
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  position: relative;
+  background-color: black;
+  width: 750px;
+  text-align: center;
+  left: 50vh;
+  opacity: 70%; }
+
+.comentario {
+  width: 360px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center; }
+
+.estado {
+  font-family: 'Kufam', cursive;
+  color: #736E6E; }
+
+.gradient {
+  background: linear-gradient(to top, #C5D91A, #080808);
+  height: 100vh;
+  width: 100px; }
+
+.homeflex {
+  display: flex;
+  justify-content: center; }
+
+.homeflex .item {
+  font-family: 'Kufam', cursive;
+  background-color: white;
+  color: black;
+  width: 25vh;
+  text-align: center; }
+
+h1.animado {
+  transform: skewY(5deg);
+  width: 250px;
+  height: auto; }
+
+h1 {
+  font-family: 'Kufam', cursive;
+  color: #E50A33;
+  left: 750px;
+  position: relative;
+  border: 1px solid black;
+  width: 270px;
+  text-align: center;
+  background-color: white; }
+
+label {
+  color: white; }
+
+form {
+  border: 1px solid #C4DD1D;
+  width: 500px;
+  position: relative;
+  left: 5px;
+  padding: 5px;
+  margin: 5px; }
+
+.boton {
+  background-color: green;
+  transition: width 2s;
+  height: auto;
+  width: 200px; }
+
+.boton:hover {
+  width: 250px;
+  background-color: blue; }
+
+.body {
+  background-image: url(../imagenes/ski.jpg); }
+
+ul {
+  list-style: square inside url("https://mdn.mozillademos.org/files/11981/starsolid.gif"); }
+
+.estilo1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #D74B4B; }
+
+.estilo2 {
+  font-family: 'Open Sans', sans-serif; }
+
+li {
+  color: #FFFFFF; }
+
+.transicion {
+  transition: height 5s, width 1s;
+  width: 200px;
+  height: 100px;
+  cursor: pointer; }
+
+.transicion:hover {
+  width: 200px;
+  height: 200px;
+  transform: skewX(5deg); }
+
+.homeflex {
+  display: flex;
+  justify-content: center; }
+
+.homeflex .item {
+  font-family: 'Kufam', cursive;
+  background-color: white;
+  color: black;
+  width: 25vh;
+  text-align: center; }
+
+.btn {
+  color: black; }
+
+.btn_btn1 {
+  text-transform: uppercase;
+  background-color: #D0ADAD;
+  width: 15vh;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; }
+
+.btn_btn2 {
+  text-transform: uppercase;
+  background-color: white;
+  width: 15vh;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; }
+
+.btn_btn3 {
+  text-transform: uppercase;
+  background-color: #757070;
+  width: 15vh;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; }
+
+.btn_btn4 {
+  text-transform: uppercase;
+  background-color: #EE9494;
+  width: 15vh;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; }
