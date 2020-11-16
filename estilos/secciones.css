@@ -93,7 +93,7 @@ div.contenedor{
 	margin: 1vh;
 	padding: 5vh;
 	grid-row: 1 / 9;
-	background-color: slategrey;
+	background-color: gray;
 	border: #080808 1px solid;
 	font-family: 'Kufam', cursive;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -126,7 +126,8 @@ text-align: center;
 background-color: white;
 }
 body {
-		
+		background-image: url("../imagenes/fondo3.jpg");
+		background-repeat: no-repeat;
 }
 
 label {
@@ -234,6 +235,7 @@ font-family: 'Open Sans', sans-serif;
 .homeflex .item{
 	font-family: 'Kufam', cursive;
 	background-color: white;
+	border: 2px solid black;
 	color: black;
 	width: 25vh;
 	text-align: center;
