@@ -2,6 +2,9 @@ html {
 }
 body {
 	background-image: url(../imagenes/Fondo.jpg);
+	background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 	width: 100vh;
     height: auto;
     margin: 0;
@@ -19,12 +22,10 @@ width: 35vh;
  border: solid black 2px;
  background-color: #FFFFFF;
 }
-
 .a {
  color:black;
  text-align: center;
   }
-}
 .p{
 	font-family: 'Kufam', cursive; 
 	color: white;
@@ -54,16 +55,14 @@ border: 1px solid black;
 
 .contenedorimagen{
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	width: 200vh;
 }
-.contenedorimagen .item2{
-	 border: 2px solid black;
-	 height: 350px;
-	 margin: 15px;
-	 box-shadow: 0px 15px 25px rgba(0,0,0,0.50)
-
+.imagenes{
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+	margin: 5vh;
+	padding: auto;
+	border: 2px solid black;
 }
 p.numero{
 	color: white;
@@ -102,7 +101,7 @@ justify-content: center;
 	left: 92vh;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
-@media only screen and (max-width: 1720px) {
+@media only screen and (max-width: 1910px) {
 	.imagheader{
 		position: relative;
 		left: 35vh;
@@ -110,11 +109,6 @@ justify-content: center;
 .hijoh1{
 	position: relative;
 	left: 30vh;
-}
-
-.contenedorimagen .item2{
-	position: relative;
-	left: 25vh;
 }
 .tamaño{
 	position: relative;
@@ -129,5 +123,10 @@ justify-content: center;
 	position: relative;
 	left: 45vh;
 }
-
+.query{
+	margin: 1vh;
+	padding: auto;
+	position: relative;
+	right: 20vh;
+}
 	}

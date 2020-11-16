@@ -59,20 +59,60 @@ text-align: center;
 color: black
  } 
 p{
-	color: orange;
+	color: black;
 }
 .grid{
 	display: grid;
-	grid-template-columns:33% 33% 33%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+div.primero{
+	grid-column:1/2;
+	grid-row:2/7;
+	margin: 2vh;
+	padding: 7vh;
+	background-color: #CB4848;
+	border: #080808 1px solid;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	text-align: center;
+}
+div.tercero{
+ grid-column:3;
+ grid-row:2/7;
+ margin: 1vh;
+padding:7vh;
+border: 1px solid black;
+ background-color: #CB4848;
+ text-align: center;
+ box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 
 }
- div.aboutus {
+div.contenedor{
+	grid-column: 1/6;
+	margin: 1vh;
+	padding: 5vh;
+	grid-row: 1 / 9;
+	background-color: slategrey;
+	border: #080808 1px solid;
+	font-family: 'Kufam', cursive;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	text-align: center;
+	padding: auto;
+}
+div.cuarto{
+	grid-column: 2;
+	grid-row: 2/7;
 	background-color: #CB4848;
-	padding:1vh;
+	margin: 1vh;
+	border: #080808 1px solid;
 	text-align: center;
 	font-family: 'Kufam', cursive;
-	grid-column: 1vh;
-	justify-content:stretch;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+div.aboutus:hover{
+	cursor: pointer;
+	opacity: 90%;
 
 }
 h1.lol{
@@ -86,7 +126,7 @@ text-align: center;
 background-color: white;
 }
 body {
-		background-color: aqua;
+		
 }
 
 label {
