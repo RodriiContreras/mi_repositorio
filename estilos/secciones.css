@@ -55,14 +55,14 @@ h1.productos{
 	background:linear-gradient(to bottom,black,white);
 	border: 2px solid black;
 	display: flex;
-	width: 50%;
+	width: 1100px;
 	margin: auto;
 	flex-wrap: wrap;
 	justify-content: center;
 	border-radius: 3px;
 }
 .contenedor-imagenes.imagen{
-width: 60%;
+width: 600px;
 height: 90px;
 margin-bottom: 5px;
 box-shadow: 0px 0px 3px 0px black rgba(0, 0, 0, .75);
@@ -78,9 +78,9 @@ box-shadow: 0px 0px 3px 0px black rgba(0, 0, 0, .75);
 .overlay{
 	position: absolute;
 	height: 310px;
-	bottom: 313px;
+	bottom: 41%;
 	text-align: center;
-	left: 500px;
+	left: 31%;
 	width: 315px;
 	background: black;
 	visibility: hidden;
@@ -89,9 +89,9 @@ box-shadow: 0px 0px 3px 0px black rgba(0, 0, 0, .75);
 .overlay2{
 	position: absolute;
 	height: 310px;
-	bottom: 313px;
+	bottom: 41%;
 	text-align: center;
-	left: 915px;
+	left: 1005px;
 	width: 315px;
 	background: black;
 	visibility: hidden;
@@ -120,9 +120,9 @@ font-size: 35px;
 .overlay3{
 	position: absolute;
 	height: 312px;
-	top: 650px;
+	top: 660px;
 	text-align: center;
-	left: 500px;
+	left: 590px;
 	width: 315px;
 	background: black;
 	visibility: hidden;
@@ -141,9 +141,9 @@ font-size: 35px;
 .overlay4{
 		position: absolute;
 		height: 312px;
-		top: 650px;
+		top: 660px;
 		text-align: center;
-		left: 917px;
+		left: 1005px;
 		width: 310px;
 		background: black;
 		visibility: hidden;
@@ -162,9 +162,9 @@ font-size: 35px;
 		.overlay5{
 			position: absolute;
 			height: 312px;
-			top: 1065px;
+			top: 1075px;
 			text-align: center;
-			left: 503px;
+			left: 590px;
 			width: 310px;
 			background: black;
 			visibility: hidden;
@@ -194,9 +194,9 @@ font-size: 35px;
 			  .overlay6{
 						position: absolute;
 						height: 312px;
-						top: 1065px;
+						top: 1075px;
 						text-align: center;
-						left: 917px;
+						left: 1000px;
 						width: 310px;
 						background: black;
 						visibility: hidden;
@@ -205,9 +205,9 @@ font-size: 35px;
 					.overlay7{
 						position: absolute;
 						height: 312px;
-						top: 174vh;
+						top: 159vh;
 						text-align: center;
-						left: 503px;
+						left: 590px;
 						width: 310px;
 						background: black;
 						visibility: hidden;
@@ -227,9 +227,9 @@ font-size: 35px;
 							.overlay8{
 								position: absolute;
 								height: 312px;
-								top: 174vh;
+								top: 159vh;
 								text-align: center;
-								left: 917px;
+								left: 1004px;
 								width: 310px;
 								background: black;
 								visibility: hidden;
