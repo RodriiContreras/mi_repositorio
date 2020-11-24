@@ -3,9 +3,8 @@
 @import "tipografia";
 
 .gradient{
-    background:linear-gradient(to top,#C5D91A,#080808);
+    background:linear-gradient(to top,white,grey);
     height: 100vh;
-    width: 100px;
 }
 .homeflex{
     display: flex;
@@ -34,28 +33,27 @@ text-align: center;
 background-color: white;
 }
 label {
-    color: white;
+    color: black;
 }
 form{
-    border: 1px solid #C4DD1D;
+    border: 3px solid black;
+    border-style: groove;
     width: 500px;
     position: relative;
-    left: 5px;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .boton{
-    background-color: green;
+    background-color: gray;
     transition: width 2s;
     height: auto;
     width: 200px;
 }
 .boton:hover{
     width: 250px;
-    background-color: blue;
+    background-color: white;
 }
-html {
-
+html{
 }
 .body {
 background-image: url(../imagenes/ski.jpg)
@@ -85,17 +83,6 @@ li {
     height: 200px;
     transform: skewX(5deg)
     }
-.homeflex{
-    display: flex;
-    justify-content: center;
-}
-.homeflex .item{
-    font-family: 'Kufam', cursive;
-    background-color: white;
-    color: black;
-    width: 25vh;
-    text-align: center;
-}
 .btn{
     color: black;
 }
@@ -131,5 +118,40 @@ li {
     border: 1px solid black;
     text-align: center;
     padding: 5px;
+}
+.grid2{
+	display: grid;
+	width: 100%;
+	background:linear-gradient(to left,white,black);
+    height: 14vh;
+    border: 1px solid black;
+  }
+  .botones{
+    position:relative; 
+    left: 20vh;
+    margin: 50px;
+ }
+ .gainz{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    }
+ .alineacion{ 
+        text-align: left;
+        margin: 15px;
+        position: relative;
+        left: 35vh;
+        width: 35vh;
+         border: solid black 2px;
+         background-color: #FFFFFF;
+        }
+ol{
+    position: relative;
+    margin: 10vh;
+}
+.formu{
+    color: black;
+    position: relative;
+    left: 450px;
 }
 
